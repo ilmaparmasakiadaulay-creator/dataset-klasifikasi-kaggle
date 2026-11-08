@@ -1,7 +1,7 @@
-Nama   : Ilma Parma Sakia Daulay
-Kelas  : 05TPLP022
-Nim    : 241011400873
-Matkul : Machine Learning
+- **Nama** : Ilma Parma Sakia Daulay
+- **Kelas** : 05TPLP022
+- **NIM** : 241011400873
+- **Matkul** : Machine Learning
 
 # Dataset Klasifikasi: Biner, Multikelas, dan Multilabel
 
