@@ -116,5 +116,3 @@ kaggle datasets download -d jessicali9530/celeba-dataset
 kaggle datasets download -d nikdavis/steam-store-games
 kaggle datasets download -d andrewmvd/board-games
 ```
-
-> File dataset tidak perlu di-push ke GitHub (ukurannya besar). Cukup simpan README ini beserta tautan sumbernya.
