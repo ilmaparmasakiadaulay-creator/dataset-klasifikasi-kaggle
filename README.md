@@ -1,3 +1,8 @@
+Nama   : Ilma Parma Sakia Daulay
+Kelas  : 05TPLP022
+Nim    : 241011400873
+Matkul : Machine Learning
+
 # Dataset Klasifikasi: Biner, Multikelas, dan Multilabel
 
 Repositori ini berisi 9 dataset Kaggle yang dikelompokkan menjadi 3 jenis klasifikasi (masing-masing 3 dataset), lengkap dengan identifikasi, penjelasan, dan sumber aslinya.
@@ -32,14 +37,14 @@ Repositori ini berisi 9 dataset Kaggle yang dikelompokkan menjadi 3 jenis klasif
 - **Tujuan:** menentukan apakah uang kertas asli atau palsu.
 - **Data:** 1.372 baris, 4 fitur numerik hasil wavelet transform citra uang (variance, skewness, curtosis, entropy) dan 1 kolom kelas.
 - **Label:** `class` = 0 (asli, 762 data) atau 1 (palsu, 610 data).
-- **Kenapa biner:** hanya ada dua kemungkinan jawaban.
+- **Alasan:** hanya ada dua kemungkinan jawaban.
 - **Sumber asli:** UCI ML Repository, https://archive.ics.uci.edu/dataset/267/banknote+authentication
 
 ### 2. Airline Passenger Satisfaction
 - **Tujuan:** memprediksi apakah penumpang puas dengan layanan maskapai.
 - **Data:** lebih dari 100 ribu catatan survei (`train.csv` dan `test.csv`) berisi profil penumpang, tipe perjalanan, kelas kabin, jarak, dan penilaian berbagai layanan.
 - **Label:** `satisfaction` = *satisfied* atau *neutral or dissatisfied*.
-- **Kenapa biner:** dua kelas hasil.
+- **Alasan:** dua kelas hasil.
 
 ### 3. Binary Classification with a Software Defects Dataset
 - **Tujuan:** memprediksi apakah sebuah modul perangkat lunak mengandung cacat (bug).
@@ -55,19 +60,19 @@ Repositori ini berisi 9 dataset Kaggle yang dikelompokkan menjadi 3 jenis klasif
 - **Tujuan:** mengenali jenis pemandangan dari gambar.
 - **Data:** sekitar 25 ribu gambar berwarna 150×150 piksel (folder train, test, dan pred).
 - **Kelas (6):** buildings, forest, glacier, mountain, sea, street.
-- **Kenapa multikelas:** satu gambar hanya masuk ke satu dari 6 kelas.
+- **Alasan:** satu gambar hanya masuk ke satu dari 6 kelas.
 
 ### 5. GTSRB (German Traffic Sign Recognition Benchmark)
 - **Tujuan:** mengenali jenis rambu lalu lintas.
 - **Data:** 39.209 gambar latih dan 12.630 gambar uji, dengan `Train.csv`, `Test.csv`, dan `Meta.csv`.
 - **Kelas:** 43 jenis rambu (`ClassId` 0–42).
-- **Kenapa multikelas:** setiap gambar rambu hanya punya satu kelas.
+- **Alasan:** setiap gambar rambu hanya punya satu kelas.
 
 ### 6. Garbage Classification
 - **Tujuan:** memilah jenis sampah dari gambar.
 - **Data:** 2.527 gambar.
 - **Kelas (6):** cardboard, glass, metal, paper, plastic, trash.
-- **Kenapa multikelas:** satu gambar = satu jenis sampah.
+- **Alasan:** satu gambar = satu jenis sampah.
 
 ---
 
